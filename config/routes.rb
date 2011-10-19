@@ -1,4 +1,17 @@
 Mediahaste::Application.routes.draw do
+
+root :to => "pages#home"
+
+match '/news', :to => "pages#news"
+match 'pictures', :to => "pages#pictures"
+match '/events', :to => "pages#events"
+match '/about', :to => "pages#about"
+ 
+ 
+ 
+ #get "pages/home"
+ #get "pages/news"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

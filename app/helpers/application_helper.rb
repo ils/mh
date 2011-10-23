@@ -9,6 +9,4 @@ def title
   end
 end
 
-
-
 end

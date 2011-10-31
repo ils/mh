@@ -51,8 +51,16 @@ header img {
   border-radius:         10px;
 }
 
+.thinframe {
+	border:solid 1px #000000;
+}
+
 .center-text {
 	text-align:center;
+}
+
+.justify-text {
+	text-align:justify;
 }
 
 .section {

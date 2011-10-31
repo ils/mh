@@ -1,23 +1,23 @@
 <hr>
-<h3><center> Ad space </center></h3>
+<h1 class="thinframe"><center> <br>Ad space<br><br> </center></h1>
 <hr>
 
 
 <div class="center-text span-4">  <!-- span-4 is 164px wide -->
 
-	<p> Left Column</p>
+<!-- Left column begin -->
+	
 	<div class="center-text span-4">  
 	<%= image_tag("left_ad.png", :alt => "Left Ad", :class => "#", :size => "164x150")%>
 	<br><br> 
 	</div>
-	
-	
 	
 	<div class "center-text span-4">
 	<p class="small"><i>
 		-Generated advertisement<br>
 		-Generated advertisement<br>
 		-Generated advertisement<br>
+    </p>
 	</div>
 	
 	<div class "center-text span-4">
@@ -31,14 +31,71 @@
 	
 </div>
 
-<div class="center-text span-9"> <!-- span-9 is 374px wide -->
+<div class="span-1"><p></p></div>
+
+<div class="center-text span-7"> <!-- span-7 is 374px wide -->
 			
-	<p>Center Column</p>
-		
+<!-- Center column begin -->
+			
+	<div class="center-text span-7">		
+	<!-- Pulls the featured image from the featured article, thinframe in the interim  -->
+	<%= image_tag("Featured.png", :alt => "Featured Article Image", :class => "", :size => "290x150")%>	
+	<br><br>
+	</div>
+	
+	<div class="span-7">
+		<p class="small justify-text">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget lacus sed urna cursus tempor. Sed lectus nulla, consectetur vitae venenatis ac, adipiscing nec tortor. Aenean eget justo at leo rhoncus...<span style="font-weight:bold;"> .........#Read more link to featured article </span>	
+		</p>
+	</div>
+
+	<div class="span-3">
+		<p>News 1 con't</p>		
+	</div>
+	
+	<div class="span-1"></div>
+	
+	<div class="span-3">
+		<p>News 2 con't</p>		
+	</div>
+
+
+
+
+
+
 </div>
+
+<div class="span-1"><p></p></div>
 
 <div class="center-text span-4 last">
 
-	<p>Third Column</p>
+<!-- Right column begin -->
+	
+		<div class="center-text span-4">  
+	<%= image_tag("Subfeature.png", :alt => "Left Ad", :class => "#", :size => "164x150")%>
+	<br><br> 
+	</div>
+	
+	<div class "center-text span-4">
+	<p class="small"><i>
+		Morbi eleifend velit quis magna aliquet ultricies. Curabitur mauris magna, semper et tincidunt nec, sagittis ut magna. Cras blandit quam vel augue eleifend. <span style="font-weight:bold;">#Read more</span>
+    </p>
+	</div>
+	
+	<div class "center-text span-4">
+	<p class="small">
+		Weather plugin
+	</p>
+	</div>
+	
+	<div class "center-text span-4">
+	<p class="small">
+		Where we'll be next
+	</p>
+	</div>
+	
+	
+	
 		
 </div>

@@ -1,5 +1,7 @@
 Mediahaste::Application.routes.draw do
 
+  resources :articles
+
 root :to => "pages#home"
 
 match '/news', :to => "pages#news"

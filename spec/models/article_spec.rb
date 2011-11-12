@@ -7,7 +7,7 @@ describe Article do
   date = "2011-11-10 08:05:01"
   
   before(:each) do
-    @article = { :headline => "headline", :body => "body" }
+    @article = { :headline => "headline", :body => "bodies" }
   end
   
   it "should create a new instance given valid attributes" do

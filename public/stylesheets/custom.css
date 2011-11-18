@@ -74,6 +74,12 @@ header img {
   font-size: 200%;
 }
 
+/* Forms */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+
 /* Links */
 
 a {

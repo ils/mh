@@ -1,19 +1,16 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <b>Headline:</b>
+<h1>
   <%= @article.headline %>
-</p>
+</h1> 
 
-<p>
-  <b>Body:</b>
-  <%= @article.body %>
-</p>
+ <p class="articledate">
+  <%= @article.date %>:  
+ </p>
 
-<p>
-  <b>Date:</b>
-  <%= @article.date %>
-</p>
+
+<%= simple_format(@article.body, :class => 'articlebody' ) %>
+
 
 
 <%= link_to 'Edit', edit_article_path(@article) %> |

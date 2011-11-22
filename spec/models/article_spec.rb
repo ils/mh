@@ -2,6 +2,7 @@ require 'spec_helper'
 
 describe Article do
   
+  #these look unecessary? look into it more
   headline = "Sample Heading Appears on Local Website"
   body = "body"
   date = "2011-11-10 08:05:01"

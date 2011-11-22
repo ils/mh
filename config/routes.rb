@@ -4,12 +4,10 @@ Mediahaste::Application.routes.draw do
 
 root :to => "pages#home"
 
-match '/news', :to => "pages#news"
+match '/news', :to => "articles#index"
 match 'pictures', :to => "pages#pictures"
 match '/events', :to => "pages#events"
-match '/about', :to => "pages#about"
- 
- 
+match '/about', :to => "pages#about" 
  
  #get "pages/home"
  #get "pages/news"

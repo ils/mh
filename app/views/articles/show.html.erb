@@ -1,4 +1,9 @@
-<p id="notice"><%= notice %></p>
+ <!-- if there is a notice, display it as class = "notice"  -->
+<% if notice != nil %>
+<% then %><div id="notice">
+	<%= notice %>
+</div>
+<% end %>
 
 <h1>
   <%= @article.headline %>
